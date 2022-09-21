@@ -1,0 +1,3 @@
+1. The length of each log is generated randomly.
+2. The suspension time is generated randomly in each round.
+3. The speed of the floating logs can be adjusted in run-time by pressing ',' and '.'
