@@ -1,0 +1,48 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (CSC3150-Assignment3.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Compiling CUDA source file main.cu...
+  Compiling CUDA source file user_program.cu...
+  
+  D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc140.pdb /FS   /MD " -o x64\Release\main.cu.obj "D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3\main.cu" 
+  
+  D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc140.pdb /FS   /MD " -o x64\Release\user_program.cu.obj "D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3\user_program.cu" 
+  support for this version of Microsoft Visual Studio has been deprecated! Only the versions between 2017 and 2019 (inclusive) are supported!
+D:/CUHK/Y3T1/CSC3150/project/project 3/CSC3150_A3/CSC3150_A3/main.cu(89): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/CUHK/Y3T1/CSC3150/project/project 3/CSC3150_A3/CSC3150_A3/main.cu(108): warning : conversion from a string literal to "char *" is deprecated
+  
+  support for this version of Microsoft Visual Studio has been deprecated! Only the versions between 2017 and 2019 (inclusive) are supported!
+D:/CUHK/Y3T1/CSC3150/project/project 3/CSC3150_A3/CSC3150_A3/main.cu(89): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/CUHK/Y3T1/CSC3150/project/project 3/CSC3150_A3/CSC3150_A3/main.cu(108): warning : conversion from a string literal to "char *" is deprecated
+  
+CUDACOMPILE : nvcc warning : nvcc support for Microsoft Visual Studio 2015 and earlier has been deprecated and is no longer being maintained
+  main.cu
+  support for this version of Microsoft Visual Studio has been deprecated! Only the versions between 2017 and 2019 (inclusive) are supported!
+CUDACOMPILE : nvcc warning : nvcc support for Microsoft Visual Studio 2015 and earlier has been deprecated and is no longer being maintained
+  user_program.cu
+  support for this version of Microsoft Visual Studio has been deprecated! Only the versions between 2017 and 2019 (inclusive) are supported!
+  
+  D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -dlink -o x64\Release\CSC3150_A3.device-link.obj -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc140.pdb   /MD " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin/crt" -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\lib\x64" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cudart.lib cudadevrt.lib  -gencode=arch=compute_52,code=sm_52  --machine 64 x64\Release\main.cu.obj x64\Release\user_program.cu.obj x64\Release\virtual_memory.cu.obj 
+CUDALINK : nvcc warning : nvcc support for Microsoft Visual Studio 2015 and earlier has been deprecated and is no longer being maintained
+  cudart_static.lib
+  kernel32.lib
+  user32.lib
+  gdi32.lib
+  winspool.lib
+  comdlg32.lib
+  advapi32.lib
+  shell32.lib
+  ole32.lib
+  oleaut32.lib
+  uuid.lib
+  odbc32.lib
+  odbccp32.lib
+  cudart.lib
+  cudadevrt.lib
+  main.cu.obj
+  user_program.cu.obj
+  virtual_memory.cu.obj
+    正在创建库 D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3\x64\Release\CSC3150_A3.lib 和对象 D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3\x64\Release\CSC3150_A3.exp
+  LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+  CSC3150_A3.vcxproj -> D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3\x64\Release\CSC3150_A3.exe
+  CSC3150_A3.vcxproj -> D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3\x64\Release\CSC3150_A3.pdb (Full PDB)

@@ -1,0 +1,56 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (CSC3150-Assignment3.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Compiling CUDA source file virtual_memory.cu...
+  Compiling CUDA source file main.cu...
+  Compiling CUDA source file user_program.cu...
+  
+  D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\virtual_memory.cu.obj "D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3\virtual_memory.cu" 
+  
+  D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\user_program.cu.obj "D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3\user_program.cu" 
+  
+  D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\main.cu.obj "D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3\main.cu" 
+  support for this version of Microsoft Visual Studio has been deprecated! Only the versions between 2017 and 2019 (inclusive) are supported!
+  support for this version of Microsoft Visual Studio has been deprecated! Only the versions between 2017 and 2019 (inclusive) are supported!
+  support for this version of Microsoft Visual Studio has been deprecated! Only the versions between 2017 and 2019 (inclusive) are supported!
+D:/CUHK/Y3T1/CSC3150/project/project 3/CSC3150_A3/CSC3150_A3/virtual_memory.cu(133): warning : non-void function "vm_read" should return a value
+  
+D:/CUHK/Y3T1/CSC3150/project/project 3/CSC3150_A3/CSC3150_A3/main.cu(89): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/CUHK/Y3T1/CSC3150/project/project 3/CSC3150_A3/CSC3150_A3/main.cu(108): warning : conversion from a string literal to "char *" is deprecated
+  
+CUDACOMPILE : nvcc warning : nvcc support for Microsoft Visual Studio 2015 and earlier has been deprecated and is no longer being maintained
+  virtual_memory.cu
+CUDACOMPILE : nvcc warning : nvcc support for Microsoft Visual Studio 2015 and earlier has been deprecated and is no longer being maintained
+  user_program.cu
+D:/CUHK/Y3T1/CSC3150/project/project 3/CSC3150_A3/CSC3150_A3/main.cu(89): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/CUHK/Y3T1/CSC3150/project/project 3/CSC3150_A3/CSC3150_A3/main.cu(108): warning : conversion from a string literal to "char *" is deprecated
+  
+CUDACOMPILE : nvcc warning : nvcc support for Microsoft Visual Studio 2015 and earlier has been deprecated and is no longer being maintained
+  main.cu
+  support for this version of Microsoft Visual Studio has been deprecated! Only the versions between 2017 and 2019 (inclusive) are supported!
+  support for this version of Microsoft Visual Studio has been deprecated! Only the versions between 2017 and 2019 (inclusive) are supported!
+  support for this version of Microsoft Visual Studio has been deprecated! Only the versions between 2017 and 2019 (inclusive) are supported!
+  
+  D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -dlink -o x64\Debug\CSC3150_A3.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /Zi /RTC1 /MDd " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin/crt" -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\lib\x64" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cudart.lib cudadevrt.lib  -gencode=arch=compute_52,code=sm_52 -G --machine 64 x64\Debug\main.cu.obj x64\Debug\user_program.cu.obj x64\Debug\virtual_memory.cu.obj 
+CUDALINK : nvcc warning : nvcc support for Microsoft Visual Studio 2015 and earlier has been deprecated and is no longer being maintained
+  cudart_static.lib
+  kernel32.lib
+  user32.lib
+  gdi32.lib
+  winspool.lib
+  comdlg32.lib
+  advapi32.lib
+  shell32.lib
+  ole32.lib
+  oleaut32.lib
+  uuid.lib
+  odbc32.lib
+  odbccp32.lib
+  cudart.lib
+  cudadevrt.lib
+  main.cu.obj
+  user_program.cu.obj
+  virtual_memory.cu.obj
+    正在创建库 D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3\x64\Debug\CSC3150_A3.lib 和对象 D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3\x64\Debug\CSC3150_A3.exp
+  CSC3150-Assignment3.vcxproj -> D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3\x64\Debug\CSC3150_A3.exe
+  CSC3150-Assignment3.vcxproj -> D:\CUHK\Y3T1\CSC3150\project\project 3\CSC3150_A3\CSC3150_A3\x64\Debug\CSC3150_A3.pdb (Full PDB)
