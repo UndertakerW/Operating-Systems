@@ -1,0 +1,30 @@
+﻿  Compiling CUDA source file file_system.cu...
+  
+  D:\CUHK\Y3T1\CSC3150\project\project 4\CSC3150_A4_Bonus\CSC3150_A4_Bonus>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\file_system.cu.obj "D:\CUHK\Y3T1\CSC3150\project\project 4\CSC3150_A4_Bonus\CSC3150_A4_Bonus\file_system.cu" 
+  support for this version of Microsoft Visual Studio has been deprecated! Only the versions between 2017 and 2019 (inclusive) are supported!
+D:/CUHK/Y3T1/CSC3150/project/project 4/CSC3150_A4_Bonus/CSC3150_A4_Bonus/file_system.cu(124): warning : missing return statement at end of non-void function "compression"
+  
+D:/CUHK/Y3T1/CSC3150/project/project 4/CSC3150_A4_Bonus/CSC3150_A4_Bonus/file_system.cu(164): error : identifier "read_FCB_parent" is undefined
+  
+D:/CUHK/Y3T1/CSC3150/project/project 4/CSC3150_A4_Bonus/CSC3150_A4_Bonus/file_system.cu(338): warning : missing return statement at end of non-void function "fs_open"
+  
+D:/CUHK/Y3T1/CSC3150/project/project 4/CSC3150_A4_Bonus/CSC3150_A4_Bonus/file_system.cu(358): warning : integer conversion resulted in a change of sign
+  
+D:/CUHK/Y3T1/CSC3150/project/project 4/CSC3150_A4_Bonus/CSC3150_A4_Bonus/file_system.cu(363): warning : integer conversion resulted in a change of sign
+  
+D:/CUHK/Y3T1/CSC3150/project/project 4/CSC3150_A4_Bonus/CSC3150_A4_Bonus/file_system.cu(368): warning : integer conversion resulted in a change of sign
+  
+D:/CUHK/Y3T1/CSC3150/project/project 4/CSC3150_A4_Bonus/CSC3150_A4_Bonus/file_system.cu(382): warning : integer conversion resulted in a change of sign
+  
+D:/CUHK/Y3T1/CSC3150/project/project 4/CSC3150_A4_Bonus/CSC3150_A4_Bonus/file_system.cu(389): warning : integer conversion resulted in a change of sign
+  
+D:/CUHK/Y3T1/CSC3150/project/project 4/CSC3150_A4_Bonus/CSC3150_A4_Bonus/file_system.cu(418): warning : integer conversion resulted in a change of sign
+  
+D:/CUHK/Y3T1/CSC3150/project/project 4/CSC3150_A4_Bonus/CSC3150_A4_Bonus/file_system.cu(438): warning : missing return statement at end of non-void function "fs_write"
+  
+D:/CUHK/Y3T1/CSC3150/project/project 4/CSC3150_A4_Bonus/CSC3150_A4_Bonus/file_system.cu(518): warning : integer conversion resulted in a change of sign
+  
+  1 error detected in the compilation of "D:/CUHK/Y3T1/CSC3150/project/project 4/CSC3150_A4_Bonus/CSC3150_A4_Bonus/file_system.cu".
+CUDACOMPILE : nvcc warning : nvcc support for Microsoft Visual Studio 2015 and earlier has been deprecated and is no longer being maintained
+  file_system.cu
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\BuildCustomizations\CUDA 11.1.targets(785,9): error MSB3721: 命令“"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\file_system.cu.obj "D:\CUHK\Y3T1\CSC3150\project\project 4\CSC3150_A4_Bonus\CSC3150_A4_Bonus\file_system.cu"”已退出，返回代码为 1。

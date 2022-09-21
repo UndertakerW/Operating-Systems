@@ -1,0 +1,25 @@
+﻿  
+  D:\CUHK\Y3T1\CSC3150\project\project 4\CSC3150_A4\CSC3150_A4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -dlink -o x64\Release\CSC3150_A4.device-link.obj -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc140.pdb   /MD " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin/crt" -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\lib\x64" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cudart.lib cudadevrt.lib  -gencode=arch=compute_52,code=sm_52  --machine 64 x64\Release\file_system.cu.obj x64\Release\main.cu.obj x64\Release\user_program.cu.obj 
+CUDALINK : nvcc warning : nvcc support for Microsoft Visual Studio 2015 and earlier has been deprecated and is no longer being maintained
+  cudart_static.lib
+  kernel32.lib
+  user32.lib
+  gdi32.lib
+  winspool.lib
+  comdlg32.lib
+  advapi32.lib
+  shell32.lib
+  ole32.lib
+  oleaut32.lib
+  uuid.lib
+  odbc32.lib
+  odbccp32.lib
+  cudart.lib
+  cudadevrt.lib
+  file_system.cu.obj
+  main.cu.obj
+  user_program.cu.obj
+    正在创建库 D:\CUHK\Y3T1\CSC3150\project\project 4\CSC3150_A4\x64\Release\CSC3150_A4.lib 和对象 D:\CUHK\Y3T1\CSC3150\project\project 4\CSC3150_A4\x64\Release\CSC3150_A4.exp
+  LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+  CSC3150_A4.vcxproj -> D:\CUHK\Y3T1\CSC3150\project\project 4\CSC3150_A4\x64\Release\CSC3150_A4.exe
+  CSC3150_A4.vcxproj -> D:\CUHK\Y3T1\CSC3150\project\project 4\CSC3150_A4\x64\Release\CSC3150_A4.pdb (Full PDB)
